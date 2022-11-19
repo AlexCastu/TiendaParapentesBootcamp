@@ -1,0 +1,13 @@
+.containerGaleriaPrincipal {
+  width: 100%;
+  overflow: hidden;
+  height: 20%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerGaleriaPrincipal img {
+  width: 100%;
+}

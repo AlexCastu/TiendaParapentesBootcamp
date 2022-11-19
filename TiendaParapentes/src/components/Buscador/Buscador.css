@@ -1,0 +1,57 @@
+.formParapentes {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   background-color: white;
+   padding: 20px 0px;
+   border-bottom: 1px solid lightgray;
+   border-top: 1px solid lightgray;
+}
+
+.selectores {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+.selectores > select,
+input {
+   background-color: rgb(255, 255, 255);
+   color: black;
+   width: 100%;
+   outline: none;
+   border: none;
+   border: 1px solid black;
+   height: 25px;
+   cursor: pointer;
+}
+
+.botonSelectores {
+   background-color: rgb(255, 255, 255);
+   color: black;
+   border: none;
+   padding: 10px;
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 10px;
+   box-shadow: 0px 0px 5px gray;
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+   justify-content: center;
+   align-items: center;
+}
+
+.botonSelectores:hover {
+   box-shadow: 0px 0px 5px black;
+}
+
+.rango {
+   background-color: red;
+}

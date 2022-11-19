@@ -1,0 +1,11 @@
+.botoneraPaginacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.botoneraPaginacion>h1 {
+    font-weight: 100;
+}

@@ -1,0 +1,78 @@
+.barraNavegacion {
+  background-color: #0099ff;
+}
+
+.tituloPagina > img {
+  width: 250px;
+}
+
+.tituloPagina:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.contenedorNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.linkNav {
+  color: rgb(245, 245, 245);
+  list-style: none;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.linkNav:hover {
+  color: white;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.botonCesta {
+  background-color: white;
+  color: black;
+  padding: 4px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.botonCesta:hover {
+  box-shadow: 0px 0px 15px white;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.isActive {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgba(255, 230, 0, 0.952);
+  color: black;
+  padding: 5px 15px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.isActive:hover {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.puntoRojoCesta {
+  background-color: red;
+  padding: 5px;
+  position: absolute;
+  border-radius: 50%;
+}
