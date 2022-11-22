@@ -36,6 +36,7 @@ const ContenidoModal = ({ data, producto, cerrarModal }) => {
                ></Image>{" "}
             </div>
             <div className="datosProducto">
+               <h3>Datos</h3>
                <div>
                   <p>Marca:</p>
                   <h5>{data.marca._id.nombre}</h5>
