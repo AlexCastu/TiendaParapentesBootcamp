@@ -6,7 +6,7 @@ import P_Accesorios from "./Pages/P_Accesorios";
 import P_Paracaidas from "./Pages/P_Paracaidas";
 import P_Sillas from "./Pages/P_Sillas";
 import P_Parapentes from "./Pages/P_Parapentes";
-import { DatosContexto } from "../src/Contexto/ContextoCesta";
+import { DatosContexto } from "./Contexto/ContextoCesta";
 import P_inicio from "./Pages/P_Inicio";
 import P_Contacto from "./Pages/P_Contacto";
 import P_NotFound from "./Pages/P_NotFound";
